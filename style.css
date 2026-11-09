@@ -1,0 +1,36 @@
+body {
+  margin: 2rem auto;
+  padding: 0 1rem;
+  max-width: 42rem;
+  color: #24292f;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+}
+
+ul {
+  margin: 1.5rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 0.85rem 0;
+  border-bottom: 1px solid #d8dee4;
+}
+
+li a {
+  color: #0969da;
+  font-weight: 600;
+}
+
+li time {
+  color: #57606a;
+}
+
+#status:empty {
+  display: none;
+}
